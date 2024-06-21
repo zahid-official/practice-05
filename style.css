@@ -76,3 +76,64 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 20px;
     color: RGB(107, 112, 118);
 }
+
+/* content-area */
+.content-area{
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.content-title{
+    font-weight: 600;
+    text-align: center;
+    color: rgba(83, 148, 173, 1);
+}
+.content-title h3{
+    font-size: 55px;
+    margin: 30px 0;
+    color: rgba(30, 67, 57, 1);
+}
+
+
+.content-menu{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.content-item{
+    width: 25%;
+}
+.content-item2{
+    width: 28%;
+}
+.item-details{
+    position: relative;
+}
+.item-details p{
+    font-size: 15px;
+    color: rgba(107, 112, 118, 1);
+}
+.item-icon{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 50%;
+    color: rgb(193, 129, 76);
+    background-color: rgb(244, 241, 238);
+    position: absolute;
+    top: 50px;
+    left: -100px;
+}
+.item-price{
+    display: flex;
+    justify-content: space-between;
+}
+.item-price h4{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 35px 0 20px;
+    color: RGB(30, 67, 57);
+}
+.item-price h4:last-child{
+    color: rgb(83, 148, 173);
+}
