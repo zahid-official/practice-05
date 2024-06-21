@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* header-top */
+.header-top{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: space-between;
+}
+.header-area button{
+    border: none;
+    cursor: pointer;
+    transition: .6s;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 18px 50px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(193, 129, 76);
+}
+.header-area button:hover{
+    background-color: rgb(33, 37, 41);
+}
+
+/* header-bottom */
+.header-bottom{
+    background-image: url(images/bg.webp);
+}
+.bottom-container{
+    height: 86vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-left span{
+    font-weight: 700;
+    word-spacing: 4px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: RGB(24, 29, 78);
+    background-color: rgb(244, 217, 194);
+}
+.header-left h2{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 50px 0 20px;
+    color: rgba(30, 67, 57, 1);
+}
+.header-left p{
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+    color: RGB(107, 112, 118);
+}
