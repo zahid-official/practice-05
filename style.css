@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 25px 0;
     justify-content: space-between;
 }
-.header-area button{
+button{
     border: none;
     cursor: pointer;
     transition: .6s;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(255, 255, 255);
     background-color: rgb(193, 129, 76);
 }
-.header-area button:hover{
+ button:hover{
     background-color: rgb(33, 37, 41);
 }
 
@@ -93,8 +93,6 @@ h1,h2,h3,h4,h5,h6{
     margin: 30px 0;
     color: rgba(30, 67, 57, 1);
 }
-
-
 .content-menu{
     display: flex;
     align-self: center;
@@ -136,4 +134,61 @@ h1,h2,h3,h4,h5,h6{
 }
 .item-price h4:last-child{
     color: rgb(83, 148, 173);
+}
+
+/* booking-area */
+.booking-area{
+    padding: 100px 0;
+    background-image: url(images/bg2.webp);
+}
+.reservation{
+    width: 60%;
+    margin: 0 auto;
+}
+.reservation-content{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reservation-image{
+    width: 48%;
+}
+.reservation-form{
+    width: 50%;
+    padding: 60px;
+    background-color: white;
+}
+.reservation-form span{
+    font-weight: 600;
+    color: rgba(83, 148, 173, 1);
+}
+.reservation-form h3{
+    font-size: 25px;
+    margin: 15px 0 30px;
+    color: rgba(30, 67, 57, 1);
+}
+
+.reservation-form input{
+    width: 36%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.reservation-form textarea{
+    width: 85%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px 20px 70px;
+}
+.reservation-form input::placeholder,
+.reservation-form textarea::placeholder{
+    font-size: 16px;
+    font-weight: 550;
+    font-family: "DM Sans", sans-serif;
+}
+.reservation-form input:hover,
+.reservation-form textarea:hover{
+    border: 1px solid rgb(193, 129, 76);
 }
