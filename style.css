@@ -235,6 +235,9 @@ footer ul a{
     display: block;
     padding: 10px 0;
 }
+footer ul a:hover{
+    color: rgb(76, 134, 156);
+}
 footer p{
     margin: 10px 0 20px;
 }
