@@ -1,4 +1,4 @@
-# Coffean ☕
+# ☕ Coffean 
 
 A captivating coffee shop website crafted for passionate coffee enthusiasts, offering effortless menu discovery, instant reservation booking, and delightful customer interactions. This beautifully responsive web experience brings the warmth and aroma of coffee culture to life, creating the perfect digital gateway for coffee lovers to find their ideal brew and cozy gathering spot.
 
